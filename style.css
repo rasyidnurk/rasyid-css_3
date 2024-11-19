@@ -1,0 +1,25 @@
+.hai:link {
+    color: crimson;
+}
+.hai:hover {
+    color: darkblue;
+    font-size: 20px;
+}
+.hai:active {
+    font-style: italic;
+}
+li:first-child a {
+    color: brown;
+}
+li:last-child a{
+    color: gray;
+}
+li:nth-child(4) a:hover {
+    color: violet;
+}
+p:first-of-type {
+    color: blueviolet;
+}
+p:last-of-type {
+    color: maroon;
+}
